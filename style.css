@@ -8,27 +8,25 @@
     background-color: #f7f7f9;
   }
 
+
   .main {
     background-image: url(Images/header-shapes\ mobile.png);
-    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 0 0 10px 70px;
     border: 1px solid #dfe1e6;
     border-top: none;
     width: auto;
     height: 626px;
-  }
+    background-color: #FFFFFF;
+    position: absolute;
 
-  .navbar {
-    height: 44px;
-    width: 100%;
-    margin-top: 0;
-    border-radius: 0;
-    background-color: transparent;
   }
 
   .logo-container {
     display: flex;
     align-items: center;
+    background-color: #FFFFFF;
   }
 
   .logo {
@@ -42,12 +40,14 @@
     margin-left: 24px;
     margin-top: 58px;
     margin-right: 275px;
+    background-color:rebeccapurple;
+
   }
+
 
   a {
     text-decoration: none;
   }
-
   .fa-bars {
     cursor: pointer;
     color: #6070ff;
@@ -57,6 +57,14 @@
     position: absolute;
     top: 58px;
     right: 37px;
+    position: fixed;
+    z-index: 2;
+  }
+ .header{
+  position: fixed ;
+  width: 100vw;
+  border: 1px solid red;
+  top: 10px;
   }
 
   .title {
@@ -73,7 +81,8 @@
     display: flex;
     align-items: center;
     color: #172b4d;
-    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   .parrafo {
@@ -91,14 +100,16 @@
     line-height: 24px;
     letter-spacing: 0;
     color: #344563;
+
   }
 
   .connect {
     height: 24px;
     width: 117px;
     margin-left: 24px;
-    margin-right: 234px;
-    margin-top: 12px;
+    margin-right: 24px;
+    margin-top: -10px;
+
   }
 
   .socialMedia {
