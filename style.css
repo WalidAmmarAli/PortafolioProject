@@ -16,7 +16,6 @@
     border-top: none;
     width: auto;
     height: 626px;
-
   }
 
   .navbar {
@@ -36,7 +35,6 @@
     color: #6070ff;
     height: 20px;
     font-size: 18px;
-    line-height: 20px;
     font-family: 'Poppins', Arial, sans-serif;
     font-weight: 700;
     line-height: 20px;
@@ -57,7 +55,6 @@
     font-size: 18px;
     height: 17px;
     position: absolute;
-    right: 0;
     top: 58px;
     right: 37px;
   }
