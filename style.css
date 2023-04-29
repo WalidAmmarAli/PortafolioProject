@@ -19,8 +19,6 @@
 
   }
 
-  header {}
-
   .navbar {
     height: 44px;
     width: 100%;
@@ -40,15 +38,12 @@
     font-size: 18px;
     line-height: 20px;
     font-family: 'Poppins', Arial, sans-serif;
-    font-size: 18px;
     font-weight: 700;
     line-height: 20px;
     text-align: center;
-
     margin-left: 24px;
     margin-top: 58px;
     margin-right: 275px;
-
   }
 
   a {
@@ -82,7 +77,6 @@
     align-items: center;
     color: #172b4d;
     flex: none;
-
   }
 
   .parrafo {
@@ -123,5 +117,4 @@
   li {
     list-style: none;
   }
-
 }
