@@ -110,7 +110,356 @@
     top: -45px;
   }
 
+  .socialMedia1 {
+    padding-inline: 24px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    color: #505f79;
+    margin-top: 12px;
+    align-items: flex-start;
+    position: relative;
+    top: -45px;
+    left: 11px;
+  }
+
   li {
     list-style: none;
+  }
+
+  .project {
+    width: 327px;
+    height: 552px;
+    background: #fff;
+    margin-top: 114px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    position: relative;
+  }
+
+  .project1 {
+    width: 327px;
+    height: 596px;
+    background: #fff;
+    margin-top: 114px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    position: relative;
+  }
+
+  .snapshot {
+    width: auto;
+    height: 220px;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 16px;
+    border-radius: 8px;
+    border: 1px solid #dfe1e6;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-info {
+    width: 295px;
+    height: 288px;
+    background: #fff;
+    display: block;
+    justify-content: start;
+    position: absolute;
+    top: 248px;
+    left: 16px;
+    right: 16px;
+  }
+
+  .project-container {
+    width: 295px;
+    height: 300px;
+    display: block;
+    justify-content: start;
+    position: absolute;
+    top: 248px;
+    left: 16px;
+    right: 16px;
+    overflow: auto;
+    padding-top: 30px;
+  }
+
+  .project-client {
+    gap: 12px;
+    height: 36px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    color: #505f79;
+    align-items: flex-start;
+    position: relative;
+    left: -20px;
+  }
+
+  .project-title {
+    width: auto;
+    height: 36px;
+    display: flex;
+    align-items: center;
+  }
+
+  .text-title {
+    color: #172b4d;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .client1 {
+    width: 55px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #344563;
+  }
+
+  .dok {
+    margin-top: 10px;
+  }
+
+  .client2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #7a869a;
+    list-style: ;
+  }
+
+  .client3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #7a869a;
+  }
+
+  .Primary-text-info {
+    font-size: 15px;
+    line-height: 26px;
+    color: #344563;
+    height: 76px;
+    margin-top: 12px;
+  }
+
+  .botton {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 85%;
+    font-size: 10px;
+    color: #6070ff;
+    height: 24px;
+    margin-top: 12px;
+    align-items: center;
+  }
+
+  .botton1 {
+    background-color: #ebebff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 57px;
+  }
+
+  .botton2 {
+    background-color: #ebebff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 49px;
+  }
+
+  .botton3 {
+    background-color: #ebebff;
+    padding: 0 10px 0 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 92px;
+  }
+
+  .last-botton {
+    width: 126px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .last-botton-son {
+    width: 102px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .container-last-botton {
+    margin-top: -5px;
+  }
+
+  .about-my-self {
+    width: auto;
+    height: 1263px;
+    margin-top: 114px;
+    border-radius: 0 80px 0 0;
+    background-color: #fff;
+  }
+
+  .about-my-self-container {
+    border-radius: 0 80px 0 0;
+    border-top: none;
+    width: auto;
+    height: 712px;
+    background-color: #fff;
+  }
+
+  .container-last-botton-1 {
+    margin-left: 24px;
+    width: 138px;
+    margin-top: -40px;
+  }
+
+  .last-botton1 {
+    width: 170px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .last-botton-son1 {
+    width: 138px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .languaje {
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 60px;
+  }
+
+  .languaje5 {
+    margin-left: 36px;
+    width: 320px;
+    margin-top: 36px;
+    color: #000;
+  }
+
+  .lenguaje1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+  }
+
+  .languages {
+    height: auto;
+    width: 327px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+  }
+
+  .javaScrip {
+    background: #f7f7f9;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+  }
+
+  .html1 {
+    background: #f7f7f9;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+  }
+
+  .css1 {
+    background: #f7f7f9;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+  }
+
+  .j {
+    width: 215px;
+    height: 24px;
+    float: right;
+    margin-right: 12px;
+  }
+
+  .h {
+    width: 215px;
+    height: 24px;
+    float: right;
+    margin-right: 12px;
+  }
+
+  .c {
+    width: 215px;
+    height: 24px;
+    float: right;
+    margin-right: 12px;
+  }
+
+  .icon1 {
+    margin-left: 12px;
+  }
+
+  .line {
+    margin-left: -12px;
+  }
+
+  .title-2 {
+    font-size: 42px;
   }
 }
