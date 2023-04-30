@@ -199,6 +199,7 @@
     align-items: flex-start;
     position: relative;
     left: -20px;
+    padding-top: 20px;
   }
 
   .project-title {
@@ -235,7 +236,6 @@
     font-style: normal;
     font-size: 13px;
     color: #7a869a;
-    list-style: ;
   }
 
   .client3 {
