@@ -199,7 +199,7 @@
     align-items: flex-start;
     position: relative;
     left: -20px;
-    padding-top: 20px;
+    padding-top: -20px;
   }
 
   .project-title {
