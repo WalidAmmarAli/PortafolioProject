@@ -76,8 +76,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
-
+use git clone more HTTPS  
 
 ### Install
 
@@ -85,9 +84,10 @@ Install this project with:
 
 
 
+
 ### Usage
 
-To run the project, execute the following command:
+use visual studio code or any code editor to see the the file
 
 
 
