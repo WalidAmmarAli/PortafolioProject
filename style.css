@@ -8,11 +8,9 @@
     font-size: 12px;
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #f7f7f9;
-
   }
 
   .header1 {
-
     width: 100%;
     top: 10px;
     left: 0;
@@ -33,7 +31,6 @@
     width: auto;
     height: 712px;
     background-color: #fff;
-
   }
 
   .logo {
@@ -44,7 +41,6 @@
     line-height: 20px;
     text-align: center;
     margin-left: 24px;
-
   }
 
   a {
@@ -73,9 +69,7 @@
     order: 0;
     flex-grow: 0;
     margin-left: -1px;
-
   }
-
 
   .parrafo {
     width: auto;
@@ -107,7 +101,7 @@
 
   .connect2 {
     font-weight: 400;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
 
   .socialMedia {
@@ -130,6 +124,7 @@
     display: grid;
     margin-left: 12px;
     margin-right: 12px;
+    margin-top: -5px;
   }
 
   .project {
@@ -144,8 +139,6 @@
     position: relative;
     display: flex;
     flex-direction: row;
-
-
   }
 
   .project1 {
@@ -158,8 +151,6 @@
     border-radius: 16px;
     border: 1px solid #dfe1e6;
     position: relative;
-
-
   }
 
   .snapshot {
@@ -185,7 +176,6 @@
     top: 248px;
     left: 16px;
     right: 16px;
-
   }
 
   .project-container {
@@ -267,7 +257,6 @@
     line-height: 26px;
     color: #344563;
     height: 76px;
-
   }
 
   .botton {
@@ -291,7 +280,7 @@
     justify-content: center;
     height: 24px;
     width: 57px;
-    margin-top: 16px
+    margin-top: 16px;
   }
 
   .botton2 {
@@ -303,7 +292,7 @@
     justify-content: center;
     height: 24px;
     width: 49px;
-    margin-top: 16px
+    margin-top: 16px;
   }
 
   .botton3 {
@@ -316,7 +305,7 @@
     justify-content: center;
     height: 24px;
     width: 92px;
-    margin-top: 16px
+    margin-top: 16px;
   }
 
   .bottons {
@@ -338,7 +327,7 @@
 
   .btn:hover {
     background-color: rgb(83, 0, 213);
-    color: white
+    color: white;
   }
 
   .last-botton-son {
@@ -349,12 +338,6 @@
     font-size: 17px;
     line-height: 24px;
   }
-
-  .works-section {
-    margin-top: -5px;
-  }
-
-  /*  abohut myself part.*/
 
   .about-my-self {
     width: auto;
@@ -372,7 +355,6 @@
     margin-right: 24px;
     background-color: #fff;
     overflow: hidden;
-
   }
 
   .title2 {
@@ -388,7 +370,6 @@
     order: 0;
     flex-grow: 0;
     margin-left: -1px;
-
   }
 
   .parrafo2 {
@@ -414,7 +395,7 @@
   h4 {
     font-size: 15px;
     font-weight: 400;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
 
   .socialMedia1 {
@@ -459,7 +440,6 @@
     margin-left: 36px;
     margin-right: 36px;
     margin-top: -10px;
-
   }
 
   .languaje5 {
@@ -468,8 +448,6 @@
     width: 320px;
     margin-top: 24px;
     color: #000;
-
-
   }
 
   .languaje6 {
@@ -485,14 +463,15 @@
     justify-content: space-between;
     align-items: center;
     width: 290px;
-
   }
-  .i{
-    transform: rotate(90deg) ;
+
+  .i {
+    transform: rotate(90deg);
     margin-right: 40px;
     cursor: pointer;
   }
-  .i2{
+
+  .i2 {
     margin-right: 40px;
     cursor: pointer;
   }
@@ -515,7 +494,6 @@
     align-items: center;
     gap: 12px;
     margin-top: 30px;
-
   }
 
   .javaScrip {
@@ -524,7 +502,7 @@
     width: 100%;
     display: flex;
     gap: 12px;
-    height:66.72px;
+    height: 66.72px;
     align-items: center;
   }
 
@@ -534,7 +512,7 @@
     width: 100%;
     display: flex;
     gap: 12px;
-    height:66.72px;
+    height: 66.72px;
     align-items: center;
   }
 
@@ -544,7 +522,7 @@
     width: 100%;
     display: flex;
     gap: 12px;
-    height:66.72px;
+    height: 66.72px;
     align-items: center;
   }
 
@@ -556,7 +534,6 @@
     float: right;
     margin-right: 12px;
     color: #253858;
-
   }
 
   .h {
@@ -567,7 +544,6 @@
     float: right;
     margin-right: 12px;
     color: #253858;
-
   }
 
   .c {
@@ -582,7 +558,6 @@
 
   .icon1 {
     margin-left: 12px;
-
   }
 
   .line {
