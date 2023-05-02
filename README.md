@@ -76,7 +76,7 @@ In order to run this project you need:
 
 ### Setup
 
-use git clone more HTTPS  
+use git clone git@github.com:WalidAmmarAli/PortafolioProjectS.git  
 
 ### Install
 
