@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   body {
     padding: 0;
     margin: 0;
@@ -8,18 +8,19 @@
     font-size: 12px;
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #f7f7f9;
+
   }
 
-  .header {
-    position: fixed;
-    padding: 24px;
-    width: 94%;
+  .header1 {
+
+    width: 100%;
     top: 10px;
     left: 0;
     display: flex;
     justify-content: space-between;
     z-index: 7;
-    background-color: transparent;
+    padding-top: 24px;
+    background-color: #fff;
   }
 
   .main {
@@ -32,6 +33,7 @@
     width: auto;
     height: 712px;
     background-color: #fff;
+
   }
 
   .logo {
@@ -41,6 +43,8 @@
     font-weight: 700;
     line-height: 20px;
     text-align: center;
+    margin-left: 24px;
+
   }
 
   a {
@@ -51,7 +55,7 @@
     cursor: pointer;
     color: #6070ff;
     font-size: 18px;
-    padding-right: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .title {
@@ -68,7 +72,10 @@
     color: #172b4d;
     order: 0;
     flex-grow: 0;
+    margin-left: -1px;
+
   }
+
 
   .parrafo {
     width: auto;
@@ -98,6 +105,11 @@
     top: -40px;
   }
 
+  .connect2 {
+    font-weight: 400;
+    color: #7F8CFF;
+  }
+
   .socialMedia {
     padding-inline: 24px;
     display: flex;
@@ -110,45 +122,44 @@
     top: -45px;
   }
 
-  .socialMedia1 {
-    padding-inline: 24px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 25px;
-    color: #505f79;
-    margin-top: 12px;
-    align-items: flex-start;
-    position: relative;
-    top: -45px;
-    left: 11px;
-  }
-
   li {
     list-style: none;
   }
 
+  .works-section {
+    display: grid;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
   .project {
-    width: 327px;
-    height: 552px;
+    width: auto;
+    height: 580px;
     background: #fff;
     margin-top: 114px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
     position: relative;
+    display: flex;
+    flex-direction: row;
+
+
   }
 
   .project1 {
-    width: 327px;
-    height: 596px;
+    width: auto;
+    height: 613px;
     background: #fff;
     margin-top: 114px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
     position: relative;
+
+
   }
 
   .snapshot {
@@ -174,11 +185,12 @@
     top: 248px;
     left: 16px;
     right: 16px;
+
   }
 
   .project-container {
     width: 295px;
-    height: 300px;
+    height: 310px;
     display: block;
     justify-content: start;
     position: absolute;
@@ -207,6 +219,7 @@
     height: 36px;
     display: flex;
     align-items: center;
+    margin-top: 12px;
   }
 
   .text-title {
@@ -245,12 +258,16 @@
     color: #7a869a;
   }
 
+  .Primary-text {
+    margin-top: 20px;
+  }
+
   .Primary-text-info {
     font-size: 15px;
     line-height: 26px;
     color: #344563;
     height: 76px;
-    margin-top: 12px;
+
   }
 
   .botton {
@@ -274,6 +291,7 @@
     justify-content: center;
     height: 24px;
     width: 57px;
+    margin-top: 16px
   }
 
   .botton2 {
@@ -285,6 +303,7 @@
     justify-content: center;
     height: 24px;
     width: 49px;
+    margin-top: 16px
   }
 
   .botton3 {
@@ -297,6 +316,11 @@
     justify-content: center;
     height: 24px;
     width: 92px;
+    margin-top: 16px
+  }
+
+  .bottons {
+    font-weight: 500;
   }
 
   .last-botton {
@@ -308,8 +332,13 @@
     border: 1px solid #6070ff;
     border-radius: 8px;
     color: #396df2;
-    margin-top: 20px;
+    margin-top: 40px;
     cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(83, 0, 213);
+    color: white
   }
 
   .last-botton-son {
@@ -321,9 +350,11 @@
     line-height: 24px;
   }
 
-  .container-last-botton {
+  .works-section {
     margin-top: -5px;
   }
+
+  /*  abohut myself part.*/
 
   .about-my-self {
     width: auto;
@@ -331,24 +362,79 @@
     margin-top: 114px;
     border-radius: 0 80px 0 0;
     background-color: #fff;
+    padding-top: 70px;
   }
 
   .about-my-self-container {
-    border-radius: 0 80px 0 0;
-    border-top: none;
     width: auto;
-    height: 712px;
+    height: 27rem;
+    margin-left: 24px;
+    margin-right: 24px;
     background-color: #fff;
+    overflow: hidden;
+
+  }
+
+  .title2 {
+    width: auto;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    order: 0;
+    flex-grow: 0;
+    margin-left: -1px;
+
+  }
+
+  .parrafo2 {
+    width: auto;
+    position: relative;
+    top: -30px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #344563;
+  }
+
+  .connect3 {
+    height: 24px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -30px;
+  }
+
+  h4 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #7F8CFF;
+  }
+
+  .socialMedia1 {
+    padding-inline: 12px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    color: #505f79;
+    align-items: flex-start;
+    position: relative;
+    top: -25px;
   }
 
   .container-last-botton-1 {
-    margin-left: 24px;
     width: 138px;
-    margin-top: -40px;
+    margin-top: -25px;
   }
 
   .last-botton1 {
-    width: 170px;
+    width: 155px;
     height: 48px;
     display: flex;
     justify-content: center;
@@ -372,38 +458,64 @@
   .languaje {
     margin-left: 36px;
     margin-right: 36px;
-    margin-top: 60px;
+    margin-top: -10px;
+
   }
 
   .languaje5 {
+    height: 24px;
     margin-left: 36px;
     width: 320px;
-    margin-top: 36px;
+    margin-top: 24px;
+    color: #000;
+
+
+  }
+
+  .languaje6 {
+    height: 24px;
+    margin-left: 36px;
+    width: 320px;
+    margin-top: 49px;
     color: #000;
   }
 
   .lenguaje1 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 290px;
+
+  }
+  .i{
+    transform: rotate(90deg) ;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  .i2{
+    margin-right: 40px;
+    cursor: pointer;
+  }
+
+  .l {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .languages {
     height: auto;
-    width: 327px;
-    margin-left: 24px;
-    margin-right: 24px;
+    width: auto;
+    margin-left: 36px;
+    margin-right: 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
     margin-top: 30px;
+
   }
 
   .javaScrip {
@@ -412,6 +524,8 @@
     width: 100%;
     display: flex;
     gap: 12px;
+    height:66.72px;
+    align-items: center;
   }
 
   .html1 {
@@ -420,6 +534,8 @@
     width: 100%;
     display: flex;
     gap: 12px;
+    height:66.72px;
+    align-items: center;
   }
 
   .css1 {
@@ -428,35 +544,51 @@
     width: 100%;
     display: flex;
     gap: 12px;
+    height:66.72px;
+    align-items: center;
   }
 
   .j {
     width: 215px;
     height: 24px;
+    font-weight: 500;
+    font-size: 15px;
     float: right;
     margin-right: 12px;
+    color: #253858;
+
   }
 
   .h {
     width: 215px;
     height: 24px;
+    font-weight: 500;
+    font-size: 15px;
     float: right;
     margin-right: 12px;
+    color: #253858;
+
   }
 
   .c {
     width: 215px;
     height: 24px;
+    font-weight: 500;
+    font-size: 15px;
     float: right;
     margin-right: 12px;
+    color: #253858;
   }
 
   .icon1 {
     margin-left: 12px;
+
   }
 
   .line {
+    width: auto;
     margin-left: -12px;
+    margin-bottom: 5px;
   }
 
   .title-2 {
