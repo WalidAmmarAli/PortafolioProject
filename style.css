@@ -10,6 +10,7 @@
     background-color: #f7f7f9;
   }
 
+  /* nav-bar and header section*/
   .header1 {
     width: 100%;
     top: 10px;
@@ -101,7 +102,6 @@
 
   .connect2 {
     font-weight: 400;
-    color: #7f8cff;
   }
 
   .socialMedia {
@@ -120,6 +120,8 @@
     list-style: none;
   }
 
+  /*Work section / main section / project-1*/
+
   .works-section {
     display: grid;
     margin-left: 12px;
@@ -127,92 +129,42 @@
     margin-top: -5px;
   }
 
-  .project {
+  .project-1 {
     width: auto;
-    height: 580px;
+    height: 552px;
     background: #fff;
     margin-top: 114px;
     margin-left: 12px;
     margin-right: 12px;
     border-radius: 16px;
-    border: 1px solid #dfe1e6;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .project1 {
-    width: auto;
-    height: 613px;
-    background: #fff;
-    margin-top: 114px;
-    margin-left: 12px;
-    margin-right: 12px;
-    border-radius: 16px;
-    border: 1px solid #dfe1e6;
-    position: relative;
-  }
-
-  .snapshot {
-    width: auto;
-    height: 220px;
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    top: 16px;
-    border-radius: 8px;
     border: 1px solid #dfe1e6;
     display: flex;
     flex-direction: column;
   }
 
-  .project-info {
-    width: 295px;
-    height: 288px;
-    background: #fff;
-    display: block;
-    justify-content: start;
-    position: absolute;
-    top: 248px;
-    left: 16px;
-    right: 16px;
-  }
-
-  .project-container {
-    width: 295px;
-    height: 310px;
-    display: block;
-    justify-content: start;
-    position: absolute;
-    top: 248px;
-    left: 16px;
-    right: 16px;
-    overflow: auto;
-    padding-top: 30px;
-  }
-
-  .project-client {
-    gap: 12px;
-    height: 36px;
+  .snapshot {
     width: auto;
-    display: flex;
-    justify-content: flex-start;
-    color: #505f79;
-    align-items: flex-start;
-    position: relative;
-    left: -20px;
-    padding-top: -20px;
+    height: 220px;
+    margin: 16px 16px 0px 16px;
+    border-radius: 8px;
   }
 
-  .project-title {
+  .work-info-container {
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .work-title {
     width: auto;
     height: 36px;
     display: flex;
     align-items: center;
     margin-top: 12px;
   }
-
-  .text-title {
+  .work-title h2 {
+    height: 36px;
     color: #172b4d;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -221,7 +173,18 @@
     line-height: 44px;
   }
 
-  .client1 {
+  /*work-detail */
+
+  .work-detail{
+    height: 16px;
+    padding: 0;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .work-detail-1 {
     width: 55px;
     height: 16px;
     font-family: 'Poppins', sans-serif;
@@ -230,48 +193,48 @@
     color: #344563;
   }
 
-  .dok {
-    margin-top: 10px;
-  }
-
-  .client2 {
+  .work-detail-2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #7a869a;
   }
 
-  .client3 {
+  .work-detail-3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #7a869a;
   }
 
-  .Primary-text {
+  .work-information-box {
     margin-top: 20px;
   }
 
-  .Primary-text-info {
+  .work-infomation {
     font-size: 15px;
     line-height: 26px;
     color: #344563;
     height: 76px;
   }
 
-  .botton {
-    display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    width: 85%;
-    font-size: 10px;
-    color: #6070ff;
+  /* Lenguages */
+
+  .technologies{
     height: 24px;
-    margin-top: 12px;
+    padding: 0;
+    gap: 8px;
+    display: flex;
     align-items: center;
+    margin-top: 18px;
+  }
+  .technologies li h3{
+    color: #6070ff;
+    font-size: 12px;
+    font-weight: 500;
   }
 
-  .botton1 {
+  .technologies-1 {
     background-color: #ebebff;
     border-radius: 8px;
     cursor: pointer;
@@ -280,10 +243,9 @@
     justify-content: center;
     height: 24px;
     width: 57px;
-    margin-top: 16px;
   }
 
-  .botton2 {
+  .technologies-2 {
     background-color: #ebebff;
     border-radius: 8px;
     cursor: pointer;
@@ -292,12 +254,11 @@
     justify-content: center;
     height: 24px;
     width: 49px;
-    margin-top: 16px;
   }
 
-  .botton3 {
+  .technologies-3{
     background-color: #ebebff;
-    padding: 0 10px 0 10px;
+    padding: 0 0px 0 0px;
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -305,45 +266,85 @@
     justify-content: center;
     height: 24px;
     width: 92px;
-    margin-top: 16px;
   }
 
-  .bottons {
-    font-weight: 500;
+  /* Button*/
+
+  .botton {
+    width: 126px;
+    height: 48px;
+    margin-top: 25px;
   }
 
-  .last-botton {
+
+  .botton button {
     width: 126px;
     height: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #396df2;
+    background-color: transparent;
     border: 1px solid #6070ff;
     border-radius: 8px;
-    color: #396df2;
-    margin-top: 40px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
     cursor: pointer;
   }
-
   .btn:hover {
-    background-color: rgb(83, 0, 213);
+    background-color: rgb(83,0,213);
     color: white;
   }
 
-  .last-botton-son {
-    width: 102px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
+  /*Project 2*/
+
+  .project-2 {
+    width: auto;
+    height: 596px;
+    background: #fff;
+    margin-top: 114px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
   }
+  .work-info-container-2 {
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 12px;
+  }
+  .work-title-2 {
+    width: 295px;
+    height: 80px;
+
+  }
+  .work-title-2 h2 {
+    height: 44px;
+    color: #172b4d;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 44px;
+    margin-top: 0px;
+  }
+
+  /* About my self section*/
 
   .about-my-self {
     width: auto;
     height: 1263px;
     margin-top: 114px;
     border-radius: 0 80px 0 0;
+    border: 1px solid #dfe1e6;
     background-color: #fff;
     padding-top: 70px;
   }
@@ -355,6 +356,7 @@
     margin-right: 24px;
     background-color: #fff;
     overflow: hidden;
+
   }
 
   .title2 {
@@ -408,10 +410,32 @@
     position: relative;
     top: -25px;
   }
+ .container-last-botton{
+  width: 126px;
+  margin-top: 25px;
 
+
+ }
   .container-last-botton-1 {
-    width: 138px;
-    margin-top: -25px;
+    width: 155px;
+    margin-top: -15px;
+    border-radius: 8px;
+  }
+  .last-botton-son1 {
+    width: 155px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #396df2;
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
   }
 
   .last-botton1 {
@@ -427,19 +451,17 @@
     cursor: pointer;
   }
 
-  .last-botton-son1 {
-    width: 138px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-  }
-
   .languaje {
     margin-left: 36px;
     margin-right: 36px;
     margin-top: -10px;
+  }
+  .lenguaje1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    padding: 0;
   }
 
   .languaje5 {
@@ -455,15 +477,8 @@
     margin-left: 36px;
     width: 320px;
     margin-top: 49px;
-    color: #000;
   }
 
-  .lenguaje1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 290px;
-  }
 
   .i {
     transform: rotate(90deg);
@@ -489,20 +504,18 @@
     width: auto;
     margin-left: 36px;
     margin-right: 36px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 12px;
     margin-top: 30px;
   }
 
   .javaScrip {
+    width: 100%;
+    height: 66.72px;
+    padding: 0;
     background: #f7f7f9;
     border-radius: 8px;
-    width: 100%;
     display: flex;
     gap: 12px;
-    height: 66.72px;
     align-items: center;
   }
 
@@ -510,6 +523,7 @@
     background: #f7f7f9;
     border-radius: 8px;
     width: 100%;
+    padding: 0;
     display: flex;
     gap: 12px;
     height: 66.72px;
@@ -524,6 +538,7 @@
     gap: 12px;
     height: 66.72px;
     align-items: center;
+    padding: 0;
   }
 
   .j {
@@ -563,7 +578,8 @@
   .line {
     width: auto;
     margin-left: -12px;
-    margin-bottom: 5px;
+    margin-bottom: 4rem;
+
   }
 
   .title-2 {
