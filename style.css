@@ -10,7 +10,7 @@
     background-color: #f7f7f9;
   }
 
-  /* nav-bar and header section*/
+  /* nav-bar and header section */
   .header1 {
     width: 100%;
     top: 10px;
@@ -120,7 +120,7 @@
     list-style: none;
   }
 
-  /*Work section / main section / project-1*/
+  /* Work section / main section / project-1 */
 
   .works-section {
     display: grid;
@@ -145,7 +145,7 @@
   .snapshot {
     width: auto;
     height: 220px;
-    margin: 16px 16px 0px 16px;
+    margin: 16px 16px 0 16px;
     border-radius: 8px;
   }
 
@@ -156,6 +156,7 @@
     margin-left: 16px;
     margin-right: 16px;
   }
+
   .work-title {
     width: auto;
     height: 36px;
@@ -163,6 +164,7 @@
     align-items: center;
     margin-top: 12px;
   }
+
   .work-title h2 {
     height: 36px;
     color: #172b4d;
@@ -173,9 +175,9 @@
     line-height: 44px;
   }
 
-  /*work-detail */
+  /* work-detail */
 
-  .work-detail{
+  .work-detail {
     height: 16px;
     padding: 0;
     margin-top: 20px;
@@ -184,6 +186,7 @@
     align-items: center;
     gap: 12px;
   }
+
   .work-detail-1 {
     width: 55px;
     height: 16px;
@@ -193,14 +196,14 @@
     color: #344563;
   }
 
-  .work-detail-2{
+  .work-detail-2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #7a869a;
   }
 
-  .work-detail-3{
+  .work-detail-3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 13px;
@@ -220,7 +223,7 @@
 
   /* Lenguages */
 
-  .technologies{
+  .technologies {
     height: 24px;
     padding: 0;
     gap: 8px;
@@ -228,7 +231,8 @@
     align-items: center;
     margin-top: 18px;
   }
-  .technologies li h3{
+
+  .technologies li h3 {
     color: #6070ff;
     font-size: 12px;
     font-weight: 500;
@@ -256,9 +260,9 @@
     width: 49px;
   }
 
-  .technologies-3{
+  .technologies-3 {
     background-color: #ebebff;
-    padding: 0 0px 0 0px;
+    padding: 0 0 0 0;
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -268,14 +272,13 @@
     width: 92px;
   }
 
-  /* Button*/
+  /* Button */
 
   .botton {
     width: 126px;
     height: 48px;
     margin-top: 25px;
   }
-
 
   .botton button {
     width: 126px;
@@ -293,12 +296,13 @@
     line-height: 24px;
     cursor: pointer;
   }
+
   .btn:hover {
-    background-color: rgb(83,0,213);
+    background-color: rgb(83, 0, 213);
     color: white;
   }
 
-  /*Project 2*/
+  /* Project 2 */
 
   .project-2 {
     width: auto;
@@ -313,6 +317,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .work-info-container-2 {
     width: auto;
     height: auto;
@@ -321,11 +326,12 @@
     margin-right: 16px;
     margin-top: 12px;
   }
+
   .work-title-2 {
     width: 295px;
     height: 80px;
-
   }
+
   .work-title-2 h2 {
     height: 44px;
     color: #172b4d;
@@ -334,10 +340,10 @@
     font-weight: 700;
     font-size: 33px;
     line-height: 44px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
-  /* About my self section*/
+  /* About my self section */
 
   .about-my-self {
     width: auto;
@@ -356,7 +362,6 @@
     margin-right: 24px;
     background-color: #fff;
     overflow: hidden;
-
   }
 
   .title2 {
@@ -410,17 +415,18 @@
     position: relative;
     top: -25px;
   }
- .container-last-botton{
-  width: 126px;
-  margin-top: 25px;
 
+  .container-last-botton {
+    width: 126px;
+    margin-top: 25px;
+  }
 
- }
   .container-last-botton-1 {
     width: 155px;
     margin-top: -15px;
     border-radius: 8px;
   }
+
   .last-botton-son1 {
     width: 155px;
     height: 48px;
@@ -456,7 +462,16 @@
     margin-right: 36px;
     margin-top: -10px;
   }
+
   .lenguaje1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    padding: 0;
+  }
+
+  .lenguaje11 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -478,7 +493,6 @@
     width: 320px;
     margin-top: 49px;
   }
-
 
   .i {
     transform: rotate(90deg);
@@ -578,8 +592,15 @@
   .line {
     width: auto;
     margin-left: -12px;
-    margin-bottom: 4rem;
+    position: absolute;
+    top: 4530px;
+  }
 
+  .line2 {
+    width: auto;
+    margin-left: -12px;
+    position: absolute;
+    top: 4600px;
   }
 
   .title-2 {
