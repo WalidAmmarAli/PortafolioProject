@@ -606,13 +606,14 @@
   .title-2 {
     font-size: 42px;
   }
-  /* fotter*/
+
+  /* fotter */
   .footer-container {
     position: absolute;
     width: 100%;
     height: 779px;
     top: 4800px;
-    background-color: #6070FF;
+    background-color: #6070ff;
     border-radius: 80px 0 0 0;
     border: 1px solid #dfe1e6;
     background-image: url(./Images/contact\ form\ shapes-mobile@2x.png);
@@ -634,7 +635,6 @@
     justify-content: center;
     margin-top: 103px;
     margin-bottom: 0;
-
   }
 
   .title-informations {
@@ -644,12 +644,12 @@
     margin-right: 24px;
     margin-top: 12px;
     margin-bottom: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #EBEBFF;
+    color: #ebebff;
     text-align: center;
   }
 
@@ -674,9 +674,7 @@
     border-radius: 8px;
     display: flex;
     align-items: center;
-    background-color: #FFFFFF;
-
-
+    background-color: #fff;
   }
 
   .input-text-box {
@@ -684,29 +682,26 @@
     height: 18px;
     margin-left: 16px;
     border: none;
-    background: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
+    background: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    color: #172B4D;
-
+    color: #172b4d;
   }
 
   .input-text2 {
-
     width: 273px;
     height: 18px;
     margin-left: 16px;
     border: none;
-    background: #FFFFFF;
-    font-family: 'Poppins';
+    background: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .input-container-last {
@@ -716,8 +711,7 @@
     margin-right: 24px;
     margin-bottom: 20px;
     border-radius: 8px;
-    background-color: #FFFFFF;
-
+    background-color: #fff;
   }
 
   .input-text3 {
@@ -727,12 +721,11 @@
     margin-top: 15px;
     border: none;
     outline: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
   }
 
   .footer-botton {
@@ -744,7 +737,7 @@
     font-weight: ;
     line-height: 24px;
     cursor: pointer;
-    background-color: #EBEBFF;
+    background-color: #ebebff;
     color: #396df2;
     border: 1px solid #6070ff;
     border-radius: 8px;
@@ -753,6 +746,4 @@
   .container-link {
     display: none;
   }
-
 }
-
