@@ -616,9 +616,9 @@
     background-color: #6070ff;
     border-radius: 80px 0 0 0;
     border: 1px solid #dfe1e6;
-    background-image: url(./Images/contact\ form\ shapes-mobile@2x.png);
-    background-position-x: calc(94% + 10px);
-    background-position-y: calc(10px);
+    background-image: url(./Images/header-shapes\ mobile.png);
+    background-position-x: calc(85% + 10px);
+    background-position-y: calc(0px + 10px);
     background-size: auto 100%;
     background-repeat: no-repeat;
     display: flex;
