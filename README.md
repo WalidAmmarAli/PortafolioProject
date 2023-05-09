@@ -124,9 +124,9 @@ To run tests, run the following command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Name: Abdul Salam https://github.com/AbdulSalamAbro colaborate on Form-section-pair-programing branch
 
-Feel free to check the [https://github.com/WalidAmmarAli/Microverse-Project-module1](../../issues/).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
