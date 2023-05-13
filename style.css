@@ -241,8 +241,6 @@
     height: 24px;
     padding: 0;
     gap: 8px;
-    display: flex;
-    align-items: center;
     margin-top: 18px;
   }
 
@@ -250,6 +248,10 @@
     color: #6070ff;
     font-size: 12px;
     font-weight: 500;
+    float:left;
+    margin-right:8px;
+    align-items: center;
+
   }
 
   .technologies-1 {
@@ -766,7 +768,7 @@
   .work-title-desktop,
   .work-infomation-dekstop,
   .technologies-4-desktop,
-  .work-title-desktop-2,
+  .work-title-desktop-2
   {
   display: none !important;
 }
