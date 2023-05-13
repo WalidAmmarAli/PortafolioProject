@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
-
   body {
     padding: 0;
     margin: 0;
@@ -339,7 +338,6 @@
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 12px;
-
   }
 
   .work-title-2 {
@@ -754,29 +752,22 @@
     border-radius: 8px;
   }
 
-  .container-link {
-    display: none;
-  }
-
   /* DISPLAY NONE ==================================================================================================== */
-  .work-detail-1-desktop,
   .work-detail-1-dekstop,
   .work-detail-2-desktop,
   .work-detail-3-desktop,
   .work-title-desktop,
   .work-infomation-dekstop,
   .technologies-4-desktop,
-  .work-title-desktop-2
-  {
-  display: none !important;
-}
+  .work-title-desktop-2 {
+    display: none !important;
+  }
 }
 
 /* ==================================================================================================================== */
 
 /* DESKTOP DESIGN */
 @media screen and (min-width: 768px) {
-
   body {
     padding: 0;
     margin: 0;
@@ -784,7 +775,6 @@
     font-size: 12px;
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #f7f7f9;
-
   }
 
   .header-desktop {
@@ -799,12 +789,12 @@
 
   .logo-desktop {
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: #6070FF;
+    color: #6070ff;
     position: absolute;
     top: 25px;
     left: 155px;
@@ -813,14 +803,14 @@
   .container-link {
     display: flex;
     float: right;
-    margin: 25px 155px 0px 0px;
+    margin: 25px 155px 0 0;
     gap: 32px;
     list-style: none;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .links {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -841,7 +831,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 0 0 0 140px;
-    background: #FFFFFF;
+    background: #fff;
     background-image: url(./Images/Header\ bg.png);
     background-repeat: no-repeat;
     background-position-x: calc(10%);
@@ -854,7 +844,7 @@
     height: 844px;
     background: transparent;
     padding: 0;
-    margin: 0px;
+    margin: 0;
   }
 
   .title-dekstop {
@@ -868,7 +858,7 @@
   }
 
   .title-dekstop-h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -876,23 +866,25 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
-    color: #091E42;
-    padding-top: 0px;
+    color: #091e42;
+    padding-top: 0;
     animation-duration: 3s;
     animation-name: bounce;
-    animation-iteration-count:infinite ;
+    animation-iteration-count: infinite;
   }
 
- @keyframes bounce {
-  from{
-    margin-left: 50%;
-    width: 50%;
+  @keyframes bounce {
+    from {
+      margin-left: 50%;
+      width: 50%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 50%;
+    }
   }
-  to{
-    margin-left: 0%;
-    width: 50%;
-  }
- }
+
   .parraro-desktop {
     height: 98px;
     width: 63.89%;
@@ -904,7 +896,7 @@
   }
 
   .p-desktop {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -923,12 +915,12 @@
   .connect-desktop-h3 {
     width: auto;
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
 
   .social-desktop-ul {
@@ -938,14 +930,12 @@
     top: 241px;
     left: 225.4px;
     padding: 0;
-    color: #505F79;
+    color: #505f79;
     gap: 19.1px;
-
   }
 
   li {
     list-style: none;
-
   }
 
   /* WORK SECTION */
@@ -965,22 +955,20 @@
   }
 
   .project-1-desktop {
-    background-color: #FFFFFF;
+    background-color: #fff;
     display: grid;
     grid-template-columns: auto 1fr;
     padding: 24px;
     border-radius: 24px;
-    Width: 92%;
-    max-width:1156px;
+    width: 92%;
+    max-width: 1156px;
     height: auto;
     max-height: 496px;
   }
 
-
   .work-info-container-desktop {
-    margin: 0px 0px 0px 46px;
-    height: auto;
-    Width: 92%;
+    margin: 0 0 0 46px;
+    width: 92%;
     height: auto;
   }
 
@@ -991,7 +979,7 @@
   }
 
   .snapshot-1 {
-    Width: 100%;
+    width: 100%;
     max-height: 448px;
     height: 100%;
     min-width: 300px;
@@ -999,19 +987,18 @@
 
   .work-title-mobile {
     display: none;
-
   }
 
   .work-title-desktop {
     padding: 0;
-    margin: 24px 0px 0px 0px;
+    margin: 24px 0 0 0;
     height: 46px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .work-detail-desktop {
@@ -1020,8 +1007,8 @@
     max-height: 24px;
     display: flex;
     align-items: center;
-    padding: 0px;
-    margin: 20px 0px 0px 0px;
+    padding: 0;
+    margin: 20px 0 0 0;
     overflow: hidden;
   }
 
@@ -1030,24 +1017,23 @@
     height: auto;
     max-height: 24px;
     padding: 0;
-    margin: 0px 12px 0px 0px;
-    font-family: 'Poppins';
+    margin: 0 12px 0 0;
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
     color: #344563;
-
   }
 
   .dok {
-    padding: 0px;
-    margin: 0px 12px 0px 0px;
+    padding: 0;
+    margin: 0 12px 0 0;
   }
 
   .li-desktop {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
   }
 
   .work-detail-2-desktop,
@@ -1055,14 +1041,14 @@
     width: auto;
     height: auto;
     max-height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
-    padding: 0px;
-    margin: 0px 12px 0px 0px;
+    color: #6b778c;
+    padding: 0;
+    margin: 0 12px 0 0;
   }
 
   .work-information-box-dekstop {
@@ -1072,11 +1058,11 @@
 
   .work-infomation-dekstop {
     padding: 0;
-    margin: 32px 0px 0px 0px;
+    margin: 32px 0 0 0;
     max-width: 496px;
     width: auto;
     height: auto;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1089,8 +1075,8 @@
     width: auto;
     height: auto;
     display: flex;
-    padding: 0px;
-    margin: 24px 0px 0px 0px;
+    padding: 0;
+    margin: 24px 0 0 0;
     gap: 8px;
   }
 
@@ -1103,7 +1089,7 @@
   .technologies-1-desktop {
     background-color: #ebebff;
     padding: 0 0 0 0;
-    margin: 0px;
+    margin: 0;
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -1116,7 +1102,7 @@
   .technologies-2-desktop {
     background-color: #ebebff;
     padding: 0 0 0 0;
-    margin: 0px;
+    margin: 0;
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -1129,7 +1115,7 @@
   .technologies-3-desktop {
     background-color: #ebebff;
     padding: 0 0 0 0;
-    margin: 0px;
+    margin: 0;
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -1142,7 +1128,7 @@
   .technologies-4-desktop {
     background-color: #ebebff;
     padding: 0 0 0 0;
-    margin: 0px;
+    margin: 0;
     border-radius: 8px;
     cursor: pointer;
     display: flex;
@@ -1181,8 +1167,7 @@
   }
 
   .boxes {
-    margin: 142px 0px 0px 0px;
-
+    margin: 142px 0 0 0;
   }
 
   .box3 {
@@ -1191,21 +1176,21 @@
 
   /* PROJECT-2 COMPONET */
   .project-2-desktop {
-    background-color: #FFFFFF;
+    background-color: #fff;
     display: grid;
     grid-template-columns: auto auto;
     padding: 24px;
     border-radius: 24px;
-    Width: 92%;
+    width: 92%;
     height: auto;
-    max-width:1156px;
+    max-width: 1156px;
     max-height: 496px;
     margin-top: 142px;
   }
 
   .work-info-container-desktop-2 {
-    margin: 0px 22px 0px 24px;
-    Width: auto;
+    margin: 0 22px 0 24px;
+    width: auto;
     height: auto;
     min-width: 370px;
     display: flex;
@@ -1214,32 +1199,32 @@
 
   .work-title-2-desktop {
     padding: 0;
-    margin: 24px 0px 0px 0px;
+    margin: 24px 0 0 0;
     width: auto;
     height: auto;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .work-title-desktop-2 {
     padding: 0;
-    margin: 24px 0px 0px 0px;
+    margin: 24px 0 0 0;
     height: auto;
     width: auto;
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .snapshot-2 {
-    Width: 100%;
+    width: 100%;
     max-height: 448px;
     height: 100%;
     min-width: 300px;
@@ -1247,10 +1232,10 @@
 
   /* about myself section */
   .about-my-self {
-    background-color: #FFFFFF;
-    Width: 100%;
-    Height: 924px;
-    margin: 142px 0px 0px 0px;
+    background-color: #fff;
+    width: 100%;
+    height: 924px;
+    margin: 142px 0 0 0;
   }
 
   .container-layout {
@@ -1259,19 +1244,19 @@
   }
 
   .box-main {
-    background-color: #FFFFFF;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     width: auto;
     height: auto;
-    margin: 142px 142px 0px 0px;
+    margin: 142px 142px 0 0;
   }
 
   .about-my-self-container {
     height: auto;
     width: auto;
     min-width: 240px;
-    margin: 166px 32px 0px 143px;
+    margin: 166px 32px 0 143px;
   }
 
   .title-about-myself {
@@ -1280,33 +1265,34 @@
   }
 
   .title-2 {
-    margin: 0px;
-    font-family: 'Poppins';
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
-    padding-top: 0px;
+    color: #091e42;
+    padding-top: 0;
     animation-duration: 3s;
     animation-name: bounce;
-    animation-iteration-count:infinite ;
+    animation-iteration-count: infinite;
+  }
 
- }
- @keyframes bounce {
-  from{
-    margin-left: 50%;
-    width: 300%;
+  @keyframes bounce {
+    from {
+      margin-left: 50%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
-  to{
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
   .parrafo2-dekstop p {
-    margin: 12px 0px 0px 0px;
-    font-family: 'Poppins';
+    margin: 12px 0 0 0;
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1322,19 +1308,19 @@
   }
 
   .connect3 h4 {
-    margin: 12px 0px 0px 0px;
-    font-family: 'Poppins';
+    margin: 12px 0 0 0;
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
   }
 
   .socialMedia1-desktop {
     display: flex;
     padding: 0;
-    margin: 26px 0px 0px 0px;
+    margin: 26px 0 0 0;
     gap: 21px;
   }
 
@@ -1344,7 +1330,7 @@
   }
 
   .container-last-botton-1-desktop {
-    margin: 24px 0px 0px 0px;
+    margin: 24px 0 0 0;
   }
 
   .last-botton-son1-desktop {
@@ -1364,17 +1350,14 @@
     cursor: pointer;
   }
 
-
   .lenguaje1 {
     padding: 0;
-    margin: 24px 0px 0px 24px;
+    margin: 24px 0 0 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 24px;
     width: auto;
     height: auto;
-
   }
 
   .languages-desktop {
@@ -1385,7 +1368,6 @@
     height: auto;
   }
 
-
   .javaScrip {
     margin-left: 12px;
     height: 77%;
@@ -1393,12 +1375,11 @@
     max-width: 122px;
     min-width: 90px;
     border-radius: 8px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     display: flex;
     flex-direction: column;
     align-items: start;
   }
-
 
   .html1 {
     margin-left: 12px;
@@ -1407,7 +1388,7 @@
     max-width: 122px;
     min-width: 90px;
     border-radius: 8px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -1420,7 +1401,7 @@
     max-width: 122px;
     min-width: 90px;
     border-radius: 8px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -1429,7 +1410,7 @@
   .j,
   .h,
   .c {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1440,7 +1421,7 @@
   }
 
   .l {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1453,16 +1434,15 @@
   }
 
   ul.javaScrip {
-    padding: 12px 0px 0px 12px;
-
+    padding: 12px 0 0 12px;
   }
 
   ul.html1 {
-    padding: 12px 0px 0px 12px;
+    padding: 12px 0 0 12px;
   }
 
   ul.css1 {
-    padding: 12px 0px 0px 12px;
+    padding: 12px 0 0 12px;
   }
 
   .languaje5 {
@@ -1476,7 +1456,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 0px 0px 24px;
+    padding: 0 0 0 24px;
     margin: 0;
     width: auto;
     height: auto;
@@ -1638,6 +1618,4 @@
   .work-infomation {
     display: none;
   }
-
-
 }
