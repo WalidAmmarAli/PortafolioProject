@@ -879,7 +879,23 @@
     align-items: center;
     letter-spacing: 0.37px;
     color: #091E42;
+
+    padding-top: 0px;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-iteration-count:infinite ;
   }
+
+ @keyframes bounce {
+  from{
+    margin-left: 50%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+ }
 
   .parraro-desktop {
     height: 98px;
@@ -1253,7 +1269,22 @@
     font-size: 40px;
     line-height: 52px;
     color: #091E42;
+    padding-top: 0px;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-iteration-count:infinite ;
+
+ }
+ @keyframes bounce {
+  from{
+    margin-left: 50%;
+    width: 300%;
   }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
   .parrafo2-dekstop p {
     margin: 12px 0px 0px 0px;
