@@ -99,7 +99,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-Github page
+Github page deployment. live vertion https://walidammarali.github.io/PortafolioProjectS/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
