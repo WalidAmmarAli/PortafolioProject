@@ -9,6 +9,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - 🚀 [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -63,6 +64,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### 🚀 Live Demo
+Add a link to your deployed project.
+
+Live Demo Link https://walidammarali.github.io/PortafolioProjectS/
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -99,6 +107,7 @@ To run tests, run the following command:
 
 ### Deployment
 
+Github page deployment. live vertion https://walidammarali.github.io/PortafolioProjectS/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
