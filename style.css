@@ -1604,7 +1604,6 @@
     width: 142px;
     height: 48px;
     margin: auto;
-    padding: auto;
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
@@ -1624,7 +1623,6 @@
   }
 }
 
-/* menu */
 /* Mobile menu */
 
 .mobile-menu {
