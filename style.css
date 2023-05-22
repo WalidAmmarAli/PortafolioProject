@@ -1625,3 +1625,22 @@
     display: none;
   }
 }
+
+/* menu */
+
+.mobile-menu{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(83,98,227);
+
+}
+.icon-x{
+  display: flex;
+  justify-content: end;
+}
+.icon-x i {
+  margin: 3.9rem 2.5rem 0 0;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
