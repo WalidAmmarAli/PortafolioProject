@@ -326,7 +326,6 @@
     margin-right: 12px;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
-    position: relative;
     display: flex;
     flex-direction: column;
   }
@@ -358,7 +357,7 @@
 
   /* About my self section */
 
-  .about-my-self {
+  .about-my-self-section {
     width: auto;
     height: 1263px;
     margin-top: 114px;
@@ -622,10 +621,10 @@
 
   /* fotter */
   .footer-container {
-    position: absolute;
+
     width: 100%;
     height: 779px;
-    top: 4800px;
+    margin-top: -200px;
     background-color: #6070ff;
     border-radius: 80px 0 0 0;
     border: 1px solid #dfe1e6;
@@ -1628,19 +1627,45 @@
 
 /* menu */
 
-.mobile-menu{
+.mobile-menu {
   width: 100%;
-  height: 100vh;
-  background-color: rgb(83,98,227);
-
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(83, 98, 227);
+  opacity: 91%;
+  display: none;
 }
+
 .icon-x{
   display: flex;
   justify-content: end;
 }
 .icon-x i {
-  margin: 3.9rem 2.5rem 0 0;
+  margin: 1.6rem 2.7rem 0 0;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   cursor: pointer;
+  font-weight: 600;
+
 }
+.options {
+  color: #fff;
+  font-size: 2rem;
+}
+.mobile-menu ul {
+  display: grid;
+  padding: 0 0 0 9%;
+  grid-template-rows: auto auto auto;
+  align-content: start;
+  gap: 1.2rem;
+
+}
+.mobile-menu ul li {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+}
+

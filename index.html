@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/89d87f2112.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.js">
     <title>Portafolio</title>
 </head>
 
@@ -24,7 +25,7 @@
             </div>
         </div>
             <div class="nav">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" id="button-bar"></i>
             </div>
         </nav>
 
@@ -56,15 +57,15 @@
 
     <div class="mobile-menu" id="menu-mobile">
         <div class="icon-x">
-            <i class="fa-solid fa-x"></i>
+            <i class="fa-regular fa-x" id="mobile-id"></i>
         </div>
         <ul>
-            <li><a href=""></a>Portafolio</li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Contact</li>
+            <li><a href="#portafolio-section" class="options">Portfolio</a></li>
+            <li><a href="#about-section" class="options">About</a></li>
+            <li><a href="#contact-section" class="options">Contact</a></li>
         </ul>
     </div>
-    <main class="main-container main-container-desktop">
+    <main class="main-container main-container-desktop" id="portafolio-section">
         <section class="works-section works-section-desktop">
             <div class="project-1 project-1-desktop">
                 <img class="snapshot" src="./Images/Snapshoot Portfolio.png" alt="mobile-designe">
@@ -204,8 +205,7 @@
         </section>
     </main>
 
-    <section class="about-my-self">
-        <div class="container-layout">
+        <div class="about-my-self-section" id="about-section">
             <div class="about-my-self-container">
 
                 <div class="title2 title-about-myself">
@@ -270,7 +270,7 @@
         </div>
     </section>
 
-    <footer class="footer-container">
+    <footer class="footer-container" id="contact-section">
         <h2 class="title-footer">Contact me</h2>
         <p class="title-informations ">
             If you have an applications you are interested in developing, a feature that you need built or a project that needs coding. <br> I’d love to help with it!
@@ -292,7 +292,7 @@
             </div>
         </form>
     </footer>
-
+    <script src="./app.js"></script>
 </body>
 
 </html>
