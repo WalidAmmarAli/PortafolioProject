@@ -67,7 +67,7 @@
 ### 🚀 Live Demo
 Add a link to your deployed project.
 
-Live Demo Link https://walidammarali.github.io/PortafolioProjectS/
+Live Demo Link https://walidammarali.github.io/PortafolioProject/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
