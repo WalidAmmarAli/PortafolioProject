@@ -14,7 +14,7 @@
     <header class="header-container-desktop">
         <nav class="header1 header-desktop">
             <div class="logo-container ">
-                <a href="#" class="logo logo-desktop">My logo</a>
+                <a href="#" class="logo logo-desktop">Ammar A.</a>
                 <!-- links-dekstop -->
                 <ul class="container-link">
                     <li><a href="#"><h2 class="links">Portfolio</h2></a></li>
@@ -22,10 +22,9 @@
                     <li><a href="#"><h2 class="links">Contact</h2></a></li>
                 </ul>
             </div>
+        <div class="fa-bar-box">
+            <i class="fa-solid fa-bars" id="button-bar"></i>
         </div>
-            <div class="nav">
-                <i class="fa-solid fa-bars"></i>
-            </div>
         </nav>
 
         <section class="main main-desktop">
@@ -44,17 +43,28 @@
             </div>
             <div class="social social-desktop">
                 <ul class="socialMedia social-desktop-ul ">
-                    <li><a href="#"><img src="./Images/Vector (2).png" alt="" class="icon"></a></li>
-                    <li><a href="#"><img src="./Images/Linkedin icon.png" alt="" class="icon"></a></li>
+                    <li><a href="https://twitter.com/AmmarAli3111"><img src="./Images/Vector (2).png" alt="" class="icon"></a></li>
+                    <li><a href="https://www.linkedin.com/in/ammar-ali-384625262/"><img src="./Images/Linkedin icon.png" alt="" class="icon"></a></li>
                     <li><a href="#"><img src="./Images/Vector (6).png" alt="" class="icon icon-3"></a></li>
-                    <li><a href="#"><img src="./Images/Vector (4).png" alt="" class="icon"></a></li>
+                    <li><a href="https://github.com/WalidAmmarAli"><img src="./Images/Vector (4).png" alt="" class="icon"></a></li>
                     <li><a href="#"><img src="./Images/Vector (5).png" alt="" class="icon"></a></li>
                 </ul>
             </div>
         </section>
     </header>
 
-    <main class="main-container main-container-desktop">
+    <div class="mobile-menu" id="menu-mobile">
+        <div class="icon-x">
+            <i class="fa-regular fa-x" id="mobile-id"></i>
+        </div>
+        <ul>
+            <li><a href="#portafolio-section" class="options">Portfolio</a></li>
+            <li><a href="#about-section" class="options">About</a></li>
+            <li><a href="#contact-section" class="options">Contact</a></li>
+        </ul>
+    </div>
+
+    <main class="main-container main-container-desktop" id="portafolio-section">
         <section class="works-section works-section-desktop">
             <div class="project-1 project-1-desktop">
                 <img class="snapshot" src="./Images/Snapshoot Portfolio.png" alt="mobile-designe">
@@ -194,7 +204,7 @@
         </section>
     </main>
 
-    <section class="about-my-self">
+    <section class="about-my-self" id="about-section">
         <div class="container-layout">
             <div class="about-my-self-container">
 
@@ -246,21 +256,21 @@
                             <li><h2 class="l">Frameworks</h2></li>
                             <li><a href="#"></a><i class="fa-solid fa-chevron-right i2"></i></li>
                         </ul>
-                            <img src="./Images/Separator Bottom.png" alt="" class="line">
                     </div>
+                    <img src="./Images/Separator Bottom.png" alt="" class="line">
                         <div class="languaje6">
                         <ul class="lenguaje11">
                             <li><h2 class="l">Skills</h2></li>
                             <li><a href="#"></a><i class="fa-solid fa-chevron-right i2"></i></li>
                         </ul>
-                            <img src="./Images/Separator Bottom.png" alt="" class="line2">
                         </div>
+                        <img src="./Images/Separator Bottom.png" alt="" class="line2">
                     </div>
             </div>
         </div>
     </section>
 
-    <footer class="footer-container">
+    <footer class="footer-container" id="contact-section">
         <h2 class="title-footer">Contact me</h2>
         <p class="title-informations ">
             If you have an applications you are interested in developing, a feature that you need built or a project that needs coding. <br> I’d love to help with it!
@@ -282,7 +292,7 @@
             </div>
         </form>
     </footer>
-
+    <script src="./app.js"></script>
 </body>
 
 </html>
