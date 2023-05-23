@@ -60,9 +60,7 @@
     position: fixed;
     right: 2.6rem;
     top: 1.5rem;
-
   }
-
 
   .title {
     padding-inline: 24px;
@@ -398,7 +396,7 @@
   .parrafo2 {
     width: auto;
     margin-top: -30px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -612,13 +610,11 @@
   .line {
     width: 80%;
     margin-left: 36px;
-
   }
 
   .line2 {
     width: 80%;
     margin-left: 36px;
-
   }
 
   .title-2 {
@@ -630,7 +626,6 @@
     margin-top: -12rem;
     width: 100%;
     height: 779px;
-
     background-color: #6070ff;
     border-radius: 80px 0 0 0;
     border: 1px solid #dfe1e6;
@@ -791,7 +786,8 @@
   .nav {
     display: none;
   }
-  .fa-bar-box{
+
+  .fa-bar-box {
     display: none;
   }
 
@@ -1662,7 +1658,6 @@
   display: flex;
   justify-content: end;
   align-items: start;
-
 }
 
 .options {

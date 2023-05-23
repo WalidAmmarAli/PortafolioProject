@@ -13,7 +13,6 @@ function closeMenu() {
   document.body.style.overflow = 'auto';
   openMenuButton.style.display = 'block';
   closeButton.style.cursor = 'pointer';
-
 }
 
 openMenuButton.addEventListener('click', openMenu);
