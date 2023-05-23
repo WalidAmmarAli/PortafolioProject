@@ -133,7 +133,7 @@ Github page deployment. live vertion https://walidammarali.github.io/PortafolioP
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Name: Abdul Salam https://github.com/AbdulSalamAbro colaborate on Form-section-pair-programing branch
+Name: Abdul Salam https://github.com/AbdulSalamAbro colaborate on Form-section-pair-programing branch <br>
 Name: wilfried muyisa https://github.com/WilfriedM01 colaborate on mobile-menu branch
 
 
