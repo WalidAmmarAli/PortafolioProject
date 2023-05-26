@@ -3,7 +3,6 @@ const closeButton = document.getElementById('mobile-id');
 const menuMobile = document.getElementById('menu-mobile');
 const workDetailLinks = document.querySelectorAll('.options');
 
-
 function openMenu() {
   menuMobile.style.display = 'block';
   document.body.style.overflow = 'hidden';
@@ -16,14 +15,9 @@ function closeMenu() {
   closeButton.style.cursor = 'pointer';
 }
 
-
-
 openMenuButton.addEventListener('click', openMenu);
 closeButton.addEventListener('click', closeMenu);
 
 workDetailLinks.forEach((link) => {
   link.addEventListener('click', closeMenu);
 });
-
-
-

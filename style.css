@@ -1,6 +1,5 @@
 /* Mobile design */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
-
 @media screen and (min-width: 375px) and (max-width: 768px) {
   body {
     padding: 0;
@@ -752,6 +751,7 @@
     border: 1px solid #6070ff;
     border-radius: 8px;
   }
+
   /* Mobile menu */
 
   .mobile-menu {
@@ -775,7 +775,6 @@
     color: #fff;
     font-size: 0.9rem;
     cursor: pointer;
-    font-weight: 600;
     width: 2rem;
     height: 2rem;
     display: flex;
@@ -803,6 +802,7 @@
     font-weight: 600;
     width: 50%;
   }
+
   /* model mobile menu */
 
   .model {
@@ -821,9 +821,8 @@
     height: auto;
     min-height: auto;
     max-width: 1372px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
+    left: 0;
+    top: 0;
     background-color: #fff;
     border-radius: 1rem;
     padding: 1rem;
@@ -871,8 +870,9 @@
   }
 
   .title-links-closeButton-title h2 {
-    font-style: bold;
-    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
     line-height: 87%;
     color: #091e42;
     margin: 0;
@@ -884,6 +884,7 @@
 
   .title-links-closeButton-title-links {
     display: flex;
+    gap: 8px;
   }
 
   .information-row-three {
@@ -892,29 +893,30 @@
     flex-direction: column;
     gap: 24px;
   }
+
   .linkAndButtons {
     display: grid;
     grid-template-rows: auto auto auto auto;
     margin-top: 8px;
   }
+
   .fa-x-button {
     margin-right: 24px;
     font-weight: 600;
     color: #344563;
-    font-size: 1.2rem !important ;
+    font-size: 1.2rem !important;
     cursor: pointer;
   }
 
-  .linkAndButtons li {
-    height: auto;
-  }
   .tec-link {
     margin-top: 8px;
   }
+
   .tec-links {
     margin-top: 12px;
     height: auto;
   }
+
   .tec-linkss {
     margin-top: 12px;
     height: auto;
@@ -922,10 +924,12 @@
     align-items: center;
     justify-content: center;
   }
+
   .tec-linkss img {
     width: 100%;
     margin-top: 8px;
   }
+
   .SeeLive-SeeResources {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -937,6 +941,7 @@
     width: 100%;
     max-height: 48px;
   }
+
   .botton-desktop-see button {
     width: 100%;
     height: 48px;
@@ -954,14 +959,6 @@
     cursor: pointer;
   }
 
-  .btn:hover {
-    background-color: rgb(83, 0, 213);
-    color: white;
-  }
-  .title-links-closeButton-title-links {
-    display: flex;
-    gap: 8px;
-  }
   .detail-1 {
     font-style: normal;
     font-weight: 500;
@@ -969,6 +966,7 @@
     line-height: 24px;
     color: #344563;
   }
+
   .detail-2,
   .detail-3 {
     font-style: normal;
@@ -977,6 +975,7 @@
     line-height: 24px;
     color: #6b778c;
   }
+
   .doks {
     display: flex;
     align-items: center;
@@ -988,6 +987,7 @@
     padding: 0;
     gap: 8px;
   }
+
   .tec {
     width: auto;
     height: 100%;
@@ -997,13 +997,6 @@
     color: #6070ff;
     font-size: 12px;
     font-weight: 500;
-  }
-  .title-links-closeButton-title h2 {
-    font-style: bold;
-    font-size: 32px;
-    line-height: 87%;
-    color: #091e42;
-    margin: 0;
   }
 
   /* DISPLAY NONE ==================================================================================================== */
@@ -1108,6 +1101,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .container-header-main {
     background-color: transparent;
     height: auto;
@@ -1575,6 +1569,8 @@
   .socialMedia1-desktop li a img {
     margin: 0;
     padding: 0;
+    width: 100%;
+    margin-top: 8px;
   }
 
   .container-last-botton-1-desktop {
@@ -1882,33 +1878,37 @@
     display: none;
     overflow: auto;
   }
+
   .model-main {
     height: 1080px;
     min-height: 100%;
     max-width: 1372px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
+    left: 0;
+    top: 0;
     background-color: #fff;
     border-radius: 1rem;
     padding: 2rem;
     border: 1px solid #dfe1e6;
     margin: 77px 142px 77px 142px;
   }
+
   .sub-div {
     display: grid;
     grid-template-rows: auto auto auto;
     gap: 1.7rem;
   }
+
   .sub-div .img-sub-div {
     width: auto;
     height: auto;
   }
+
   .img-height {
     width: 100%;
     height: auto;
     max-height: 586px;
   }
+
   .title-links-closeButton {
     padding: 0;
     margin: 0;
@@ -1916,6 +1916,7 @@
     grid-template-rows: auto auto;
     gap: 12px;
   }
+
   .title-links-closeButton-title {
     display: flex;
     justify-content: space-between;
@@ -1923,6 +1924,7 @@
     height: 100%;
     margin: 0;
   }
+
   .p-information-row p {
     line-height: 2rem;
     font-size: 16px;
@@ -1930,20 +1932,24 @@
     max-width: 1000px;
     min-width: 375px;
   }
+
   .title-links-closeButton-title h2 {
-    font-style: bold;
+    font-weight: bold;
     font-size: 40px;
     line-height: 87%;
     color: #091e42;
     margin: 0;
   }
+
   .title-links-closeButton-title .fa-x {
     font-size: 1rem;
   }
+
   .title-links-closeButton-title-links {
     display: flex;
     gap: 8px;
   }
+
   .detail-1 {
     font-style: normal;
     font-weight: 500;
@@ -1951,6 +1957,7 @@
     line-height: 24px;
     color: #344563;
   }
+
   .detail-2,
   .detail-3 {
     font-style: normal;
@@ -1959,58 +1966,65 @@
     line-height: 24px;
     color: #6b778c;
   }
+
   .doks {
     display: flex;
     align-items: center;
   }
+
   .information-row-three {
     display: grid;
     grid-template-columns: auto auto;
     gap: 24px;
     border-radius: 1rem;
   }
+
   .fa-x-button {
     margin-right: 24px;
     font-weight: 600;
     color: #344563;
-    font-size: 1.2rem !important ;
+    font-size: 1.2rem !important;
     cursor: pointer;
   }
+
   .linkAndButtons {
     display: flex;
     flex-direction: column;
     margin-top: 8px;
     align-content: start;
   }
+
   .linkAndButtons li {
     height: auto;
   }
+
   .tec-link {
     margin-top: 8px;
   }
+
   .tec-links {
     margin-top: 12px;
     height: auto;
   }
+
   .tec-linkss {
     width: 100%;
     height: auto;
     display: grid;
   }
-  .tec-linkss img {
-    width: 100%;
-    margin-top: 8px;
-  }
+
   .SeeLive-SeeResources {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
     margin-top: 16px;
   }
+
   .botton-desktop-see {
     width: 100%;
     max-height: 48px;
   }
+
   .botton-desktop-see button {
     width: 100%;
     height: 48px;
@@ -2027,15 +2041,30 @@
     line-height: 24px;
     cursor: pointer;
   }
-  .btn:hover {
-    background-color: rgb(83, 0, 213);
-    color: white;
+
+  .botton-desktop-see-1 button {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #396df2;
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
   }
+
   .technologies-desktop-component {
     display: flex;
     padding: 0;
     gap: 8px;
   }
+
   .tec {
     width: auto;
     height: 100%;
@@ -2046,6 +2075,7 @@
     font-size: 12px;
     font-weight: 500;
   }
+
   @media screen and (min-width: 768px) and (max-width: 1160px) {
     .information-row-three {
       display: grid;
@@ -2053,11 +2083,13 @@
       flex-direction: column;
       gap: 24px;
     }
+
     .linkAndButtons {
       display: grid;
       grid-template-rows: auto auto auto auto;
       margin-top: 8px;
     }
+
     .tec-links {
       display: none;
     }
