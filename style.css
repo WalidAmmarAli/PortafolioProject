@@ -1,5 +1,5 @@
 /* Mobile design */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
   body {
@@ -7,7 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 12px;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     background-color: #f7f7f9;
   }
 
@@ -37,7 +37,7 @@
   .logo {
     color: #6070ff;
     font-size: 18px;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-weight: 700;
     line-height: 20px;
     text-align: center;
@@ -67,7 +67,7 @@
     padding-inline: 24px;
     padding-top: 124px;
     width: auto;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 2.1rem;
@@ -89,7 +89,7 @@
 
   p {
     margin-top: 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -184,7 +184,7 @@
   .work-title h2 {
     height: 36px;
     color: #172b4d;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -206,21 +206,21 @@
   .work-detail-1 {
     width: 55px;
     height: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #344563;
   }
 
   .work-detail-2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #7a869a;
   }
 
   .work-detail-3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #7a869a;
@@ -350,7 +350,7 @@
   .work-title-2 h2 {
     height: 44px;
     color: #172b4d;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 33px;
@@ -381,7 +381,7 @@
 
   .title2 {
     width: auto;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 2.1rem;
@@ -398,7 +398,7 @@
     width: auto;
     margin-top: -30px;
     margin-bottom: 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -525,7 +525,7 @@
   }
 
   .l {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -658,7 +658,7 @@
     margin-right: 24px;
     margin-top: 12px;
     margin-bottom: 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -695,7 +695,7 @@
     margin-left: 16px;
     border: none;
     background: #fff;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
@@ -708,7 +708,7 @@
     margin-left: 16px;
     border: none;
     background: #fff;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -732,7 +732,7 @@
     margin-top: 15px;
     border: none;
     outline: none;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -754,260 +754,257 @@
   }
   /* Mobile menu */
 
-.mobile-menu {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(96, 112, 255, 0.8);
-  backdrop-filter: blur(6px);
-  display: none;
-}
+  .mobile-menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(96, 112, 255, 0.8);
+    backdrop-filter: blur(6px);
+    display: none;
+  }
 
-.icon-x {
-  display: flex;
-  justify-content: end;
-}
+  .icon-x {
+    display: flex;
+    justify-content: end;
+  }
 
-.icon-x i {
-  margin: 1.6rem 28px 0 0;
-  color: #fff;
-  font-size: 0.9rem;
-  cursor: pointer;
-  font-weight: 600;
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  justify-content: end;
-  align-items: start;
-  font-weight: 600;
-}
+  .icon-x i {
+    margin: 1.6rem 28px 0 0;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 600;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    font-weight: 600;
+  }
 
-.options {
-  color: #fff;
-  font-size: 2rem;
-}
+  .options {
+    color: #fff;
+    font-size: 2rem;
+  }
 
-.mobile-menu ul {
-  display: grid;
-  padding: 0 0 0 9%;
-  grid-template-rows: auto auto auto;
-  align-content: start;
-  gap: 1.2rem;
-}
+  .mobile-menu ul {
+    display: grid;
+    padding: 0 0 0 9%;
+    grid-template-rows: auto auto auto;
+    align-content: start;
+    gap: 1.2rem;
+  }
 
-.mobile-menu ul li {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: 600;
-  width: 50%;
-}
-/* model mobile menu */
+  .mobile-menu ul li {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+  }
+  /* model mobile menu */
 
+  .model {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    overflow: auto;
+    display: none;
+  }
 
-.model {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6px);
-  position: fixed;
-  overflow: auto;
-  display: none;
-}
+  .model-main {
+    height: auto;
+    min-height: auto;
+    max-width: 1372px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid #dfe1e6;
+    margin: 4rem 1rem 4rem 1rem;
+  }
 
-.model-main {
-  height: auto;
-  min-height: auto;
-  max-width: 1372px;
-  left: 0px;
-  top: 0px;
-  border-radius: 16px;
-  background-color: #fff;
-  border-radius: 1rem;
-  padding: 1rem;
-  border: 1px solid #dfe1e6;
-  margin: 4rem 1rem 4rem 1rem;
-}
+  .sub-div {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 1.7rem;
+  }
 
-.sub-div {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  gap: 1.7rem;
-}
+  .sub-div .img-sub-div {
+    width: auto;
+    height: auto;
+  }
 
-.sub-div .img-sub-div {
-  width: auto;
-  height: auto;
-}
+  .img-height {
+    width: 100%;
+    height: auto;
+    max-height: 586px;
+  }
 
-.img-height {
-  width: 100%;
-  height: auto;
-  max-height: 586px;
-}
+  .title-links-closeButton {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 12px;
+  }
 
-.title-links-closeButton {
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-rows: auto auto;
-  gap: 12px;
+  .title-links-closeButton-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+  }
 
-}
+  .p-information-row p {
+    line-height: 2rem;
+    font-size: 16px;
+    color: #344563;
+  }
 
-.title-links-closeButton-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  margin: 0;
-}
+  .title-links-closeButton-title h2 {
+    font-style: bold;
+    font-size: 40px;
+    line-height: 87%;
+    color: #091e42;
+    margin: 0;
+  }
 
-.p-information-row p {
-  line-height: 2rem;
-  font-size: 16px;
-  color: #344563;
-}
+  .title-links-closeButton-title .fa-x {
+    font-size: 1rem;
+  }
 
-.title-links-closeButton-title h2 {
-  font-style: bold;
-  Font-size: 40px;
-  Line-height: 87%;
-  color: #091E42;
-  margin: 0;
-}
+  .title-links-closeButton-title-links {
+    display: flex;
+  }
 
-.title-links-closeButton-title .fa-x {
-  font-size: 1rem;
-}
+  .information-row-three {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .linkAndButtons {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 8px;
+  }
+  .fa-x-button {
+    margin-right: 24px;
+    font-weight: 600;
+    color: #344563;
+    font-size: 1.2rem !important ;
+    cursor: pointer;
+  }
 
-.title-links-closeButton-title-links {
-  display: flex;
+  .linkAndButtons li {
+    height: auto;
+  }
+  .tec-link {
+    margin-top: 8px;
+  }
+  .tec-links {
+    margin-top: 12px;
+    height: auto;
+  }
+  .tec-linkss {
+    margin-top: 12px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tec-linkss img {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .SeeLive-SeeResources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 16px;
+  }
 
-}
+  .botton-desktop-see {
+    width: 100%;
+    max-height: 48px;
+  }
+  .botton-desktop-see button {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #396df2;
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+  }
 
-.information-row-three {
-  display: grid;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-.linkAndButtons{
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  margin-top: 8px;
-}
-.fa-x-button{
-  margin-right: 24px;
-  font-weight: 600;
-  color: #344563;
-  font-size: 1.2rem !important ;
-  cursor: pointer;
-}
+  .btn:hover {
+    background-color: rgb(83, 0, 213);
+    color: white;
+  }
+  .title-links-closeButton-title-links {
+    display: flex;
+    gap: 8px;
+  }
+  .detail-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+  .detail-2,
+  .detail-3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+  .doks {
+    display: flex;
+    align-items: center;
+  }
 
-.linkAndButtons li {
-  height: auto;
-}
-.tec-link {
-  margin-top: 8px;
-}
-.tec-links{
-  margin-top: 12px;
-  height: auto;
-}
-.tec-linkss{
-  margin-top: 12px;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.tec-linkss img {
-  width: 100%;
-  margin-top: 8px;
-}
-.SeeLive-SeeResources{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  margin-top: 16px;
-}
-
-.botton-desktop-see{
-  width: 100%;
-  max-height: 48px;
-}
-.botton-desktop-see button {
-  width: 100%;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #396df2;
-  background-color: transparent;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: rgb(83, 0, 213);
-  color: white;
-}
-.title-links-closeButton-title-links {
-  display: flex;
-  gap: 8px;
-}
-.detail-1{
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #344563;
-}
-.detail-2, .detail-3{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #6b778c;
-}
-.doks{
-  display: flex;
-  align-items: center;
-}
-
-/* tecnologies  */
-.technologies-desktop-component{
-  display: flex;
-  padding: 0;
-  gap: 8px;
-}
-.tec{
-  width: auto;
-  height: 100%;
-  padding: 4px 12px 4px 12px;
-  border-radius: 8px;
-  background-color: #ebebff;
-  color: #6070ff;
-  font-size: 12px;
-  font-weight: 500;
-}
-.title-links-closeButton-title h2 {
-  font-style: bold;
-  Font-size: 32px;
-  Line-height: 87%;
-  color: #091E42;
-  margin: 0;
-}
-
+  /* tecnologies  */
+  .technologies-desktop-component {
+    display: flex;
+    padding: 0;
+    gap: 8px;
+  }
+  .tec {
+    width: auto;
+    height: 100%;
+    padding: 4px 12px 4px 12px;
+    border-radius: 8px;
+    background-color: #ebebff;
+    color: #6070ff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .title-links-closeButton-title h2 {
+    font-style: bold;
+    font-size: 32px;
+    line-height: 87%;
+    color: #091e42;
+    margin: 0;
+  }
 
   /* DISPLAY NONE ==================================================================================================== */
   .work-detail-1-dekstop,
@@ -1019,7 +1016,6 @@
   .work-title-desktop-2,
   .tec-links {
     display: none !important;
-
   }
 }
 
@@ -1032,7 +1028,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 12px;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     background-color: #f7f7f9;
   }
 
@@ -1052,7 +1048,7 @@
 
   .logo-desktop {
     text-decoration: none;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1073,7 +1069,7 @@
   }
 
   .links {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1112,7 +1108,7 @@
     align-items: center;
     justify-content: center;
   }
-  .container-header-main{
+  .container-header-main {
     background-color: transparent;
     height: auto;
     max-width: 63.89%;
@@ -1124,11 +1120,10 @@
   .title-dekstop {
     height: auto;
     width: 100%;
-
   }
 
   .title-dekstop-h1 {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -1147,7 +1142,6 @@
   @keyframes bounce {
     from {
       margin-left: 60%;
-
     }
 
     to {
@@ -1161,7 +1155,7 @@
   }
 
   .p-desktop {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1174,13 +1168,12 @@
   .connect-desktop {
     height: auto;
     width: 100%;
-
   }
 
   .connect-desktop-h3 {
     width: auto;
     height: 24px;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1258,7 +1251,7 @@
     padding: 0;
     margin: 24px 0 0 0;
     height: 46px;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1283,7 +1276,7 @@
     max-height: 24px;
     padding: 0;
     margin: 0 12px 0 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1306,7 +1299,7 @@
     width: auto;
     height: auto;
     max-height: 24px;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1327,7 +1320,7 @@
     max-width: 496px;
     width: auto;
     height: auto;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1467,7 +1460,7 @@
     margin: 24px 0 0 0;
     width: auto;
     height: auto;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1480,7 +1473,7 @@
     margin: 24px 0 0 0;
     height: auto;
     width: auto;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1533,7 +1526,7 @@
 
   .title-2 {
     margin: 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1547,7 +1540,7 @@
 
   .parrafo2-dekstop p {
     margin: 12px 0 0 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1564,7 +1557,7 @@
 
   .connect3 h4 {
     margin: 12px 0 0 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1665,7 +1658,7 @@
   .j,
   .h,
   .c {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1676,7 +1669,7 @@
   }
 
   .l {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1773,7 +1766,7 @@
     margin-right: 24px;
     margin-top: 12px;
     margin-bottom: 0;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1810,7 +1803,7 @@
     margin-left: 16px;
     border: none;
     background: #fff;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
@@ -1823,7 +1816,7 @@
     margin-left: 16px;
     border: none;
     background: #fff;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1847,7 +1840,7 @@
     margin-top: 15px;
     border: none;
     outline: none;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1874,9 +1867,199 @@
   .work-detail-3,
   .work-infomation,
   .mobile-menu,
-  .xd{
+  .xd {
     display: none;
   }
 
-
+  .model {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    display: none;
+    overflow: auto;
+  }
+  .model-main {
+    height: 1080px;
+    min-height: 100%;
+    max-width: 1372px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: 1px solid #dfe1e6;
+    margin: 77px 142px 77px 142px;
+  }
+  .sub-div {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 1.7rem;
+  }
+  .sub-div .img-sub-div {
+    width: auto;
+    height: auto;
+  }
+  .img-height {
+    width: 100%;
+    height: auto;
+    max-height: 586px;
+  }
+  .title-links-closeButton {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 12px;
+  }
+  .title-links-closeButton-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+  }
+  .p-information-row p {
+    line-height: 2rem;
+    font-size: 16px;
+    color: #344563;
+    max-width: 1000px;
+    min-width: 375px;
+  }
+  .title-links-closeButton-title h2 {
+    font-style: bold;
+    font-size: 40px;
+    line-height: 87%;
+    color: #091e42;
+    margin: 0;
+  }
+  .title-links-closeButton-title .fa-x {
+    font-size: 1rem;
+  }
+  .title-links-closeButton-title-links {
+    display: flex;
+    gap: 8px;
+  }
+  .detail-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+  .detail-2,
+  .detail-3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+  .doks {
+    display: flex;
+    align-items: center;
+  }
+  .information-row-three {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 24px;
+    border-radius: 1rem;
+  }
+  .fa-x-button {
+    margin-right: 24px;
+    font-weight: 600;
+    color: #344563;
+    font-size: 1.2rem !important ;
+    cursor: pointer;
+  }
+  .linkAndButtons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    align-content: start;
+  }
+  .linkAndButtons li {
+    height: auto;
+  }
+  .tec-link {
+    margin-top: 8px;
+  }
+  .tec-links {
+    margin-top: 12px;
+    height: auto;
+  }
+  .tec-linkss {
+    width: 100%;
+    height: auto;
+    display: grid;
+  }
+  .tec-linkss img {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .SeeLive-SeeResources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 16px;
+  }
+  .botton-desktop-see {
+    width: 100%;
+    max-height: 48px;
+  }
+  .botton-desktop-see button {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #396df2;
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgb(83, 0, 213);
+    color: white;
+  }
+  .technologies-desktop-component {
+    display: flex;
+    padding: 0;
+    gap: 8px;
+  }
+  .tec {
+    width: auto;
+    height: 100%;
+    padding: 4px 12px 4px 12px;
+    border-radius: 8px;
+    background-color: #ebebff;
+    color: #6070ff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1160px) {
+    .information-row-three {
+      display: grid;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .linkAndButtons {
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      margin-top: 8px;
+    }
+    .tec-links {
+      display: none;
+    }
+  }
 }
