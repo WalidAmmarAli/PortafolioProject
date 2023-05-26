@@ -17,6 +17,7 @@ function closeMenu() {
 
 openMenuButton.addEventListener('click', openMenu);
 closeButton.addEventListener('click', closeMenu);
+
 workDetailLinks.forEach((link) => {
   link.addEventListener('click', closeMenu);
 });
