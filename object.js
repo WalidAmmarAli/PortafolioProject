@@ -40,7 +40,6 @@ const works = {
 function setProjectData(projectElement, projectData) {
   const [detail1, image1, detail2, image2, detail3] = projectData.feature;
   const [technology1, technology2, technology3, technology4] = projectData.technologies;
-
   projectElement.querySelector('h2').textContent = projectData.name;
   projectElement.querySelector('.detail-1').textContent = detail1;
   projectElement.querySelector('.doks:nth-of-type(2) img').src = image1;
